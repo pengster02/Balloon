@@ -157,7 +157,7 @@ public class DrawingPanel extends JPanel
 		 repaint();
 	 }
 
-	 //If the ballon is "active", cursor keys move it, or if crtl is down, the cursor keys will stretch it.
+	 //If the balloon is "active", cursor keys move it, or if crtl is down, the cursor keys will stretch it.
 	 public void keyPressed (KeyEvent e)
 	 {
 		 if (activeBalloon == null)
